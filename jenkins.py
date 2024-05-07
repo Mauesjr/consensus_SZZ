@@ -9,7 +9,7 @@ for chave in data:
     del data[chave]['commitdate']
     data[chave]['fix_commit_hash'] = data[chave].pop('hash')
     data[chave]['earliest_issue_date'] = data[chave].pop('resolutiondate')
-    data[chave]['repo_name'] = ''
+    data[chave]['repo_name'] = 'jenkinsci/jenkins'
 
 '''
 Importante resaltar que o jenkins é feito de forma
