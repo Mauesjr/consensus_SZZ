@@ -1,6 +1,6 @@
 import json
 
-with open('/home/marco/Documentos/decision_szz/marco_szz/szz/issue_list.json', 'r') as file:
+with open('/home/marco/Documentos/decision_szz/marco_szz/issue_list.json', 'r') as file:
     data = json.load(file)
     
 
