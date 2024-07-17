@@ -4,7 +4,8 @@ import glob
 # with open('consensus_SZZ/out/bic_bszz_1720640354.json', 'r') as file:
 #     data = json.load(file)
 
-for file in glob.glob('consensus_SZZ/out/*'):
+for file in glob.glob('consensus_SZZ/out/bic*'):
+    print(file)
     with open(file,'r') as arquivo:
         data = json.load(arquivo)
     file_split = file.split('/')
